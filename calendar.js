@@ -20,8 +20,6 @@ let date = 0;
 
 let text = "";
 let curDay;
-let firstDayofMonth;
-let lastDayofMonth;
 let day = 0;
 let skip = 0;
 let runningCount = 0;
