@@ -40,7 +40,6 @@ for (let m = 0; m < months.length; m++) {
 
     if (d === lastDateofMonth) {
       text += d + "<br> <br>";
-      lastDayofMonth = curDay;
       skip = days.indexOf(curDay) + 1;
       console.log(skip);
     } else if (runningCount % 7 === 0) {
