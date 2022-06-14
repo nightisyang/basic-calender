@@ -41,7 +41,6 @@ for (let m = 0; m < months.length; m++) {
     if (d === lastDateofMonth) {
       text += d + "<br> <br>";
       skip = days.indexOf(curDay) + 1;
-      console.log(skip);
     } else if (runningCount % 7 === 0) {
       text += d + "<br>";
       day = 0;
@@ -50,7 +49,6 @@ for (let m = 0; m < months.length; m++) {
     }
 
     curDay = days[day];
-    console.log(curDay);
     day++;
   }
 }
